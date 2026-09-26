@@ -1,0 +1,15 @@
+{
+  "threshold_used": 0.33,
+  "test_set_size": 3305,
+  "accuracy": 0.9043872919818456,
+  "precision": 0.8719076415612974,
+  "recall": 0.9502696225284601,
+  "f1": 0.9094036697247706,
+  "roc_auc": 0.9746594376674612,
+  "confusion_matrix": {
+    "actual_real_pred_real": 1403,
+    "actual_real_pred_fake": 233,
+    "actual_fake_pred_real": 83,
+    "actual_fake_pred_fake": 1586
+  }
+}

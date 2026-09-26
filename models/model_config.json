@@ -1,0 +1,11 @@
+{
+  "img_size": 128,
+  "label_map": {
+    "Real": 0,
+    "Fake": 1
+  },
+  "decision_threshold": 0.33,
+  "architecture": "scratch_cnn (trained from scratch, not a pretrained backbone)",
+  "last_conv_layer_name": "last_conv",
+  "threshold_calibration": "tuned on validation set (max F1) after merging Kaggle AI-portrait dataset"
+}

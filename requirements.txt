@@ -1,0 +1,11 @@
+tensorflow==2.16.1
+numpy
+pandas
+scikit-learn
+Pillow
+matplotlib
+fastapi
+uvicorn[standard]
+python-multipart
+reportlab
+tqdm
